@@ -1,0 +1,21 @@
+package com.CH22_SpringTest;
+
+public class Student3 {
+	private String name;
+	private char sec;
+	private int gpa;
+	private String collegeName;
+	public Student3(String name, char sec, int gpa, String collegeName) {
+		super();
+		this.name = name;
+		this.sec = sec;
+		this.gpa = gpa;
+		this.collegeName = collegeName;
+	}
+	@Override
+	public String toString() {
+		return "Student3 [name=" + name + ", sec=" + sec + ", gpa=" + gpa + ", collegeName=" + collegeName + "]";
+	}
+	
+
+}
