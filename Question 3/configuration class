@@ -1,0 +1,15 @@
+package com.CH22_SpringTest;
+
+import org.springframework.context.annotation.Bean;
+
+public class Configuration {
+	
+		@Bean
+		public Student3 G1()
+		{
+			Student3 g=new Student3("Sudheer",'A',7,"SRKR");
+			return g;
+		}
+	
+
+}
